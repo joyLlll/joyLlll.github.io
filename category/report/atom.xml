@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://joyLlll.github.io</id>
+    <title>Hexo • Posts by &#34;report&#34; category</title>
+    <link href="https://joyLlll.github.io" />
+    <updated>2024-04-20T17:42:50.329Z</updated>
+    <entry>
+        <id>https://joyllll.github.io/2024/04/21/%E6%8A%80%E6%9C%AF%E6%8A%A5%E5%91%8A/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A%E6%8A%A5%E5%91%8A/</id>
+        <title>作业报告</title>
+        <link rel="alternate" href="https://joyllll.github.io/2024/04/21/%E6%8A%80%E6%9C%AF%E6%8A%A5%E5%91%8A/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A%E6%8A%A5%E5%91%8A/"/>
+        <content type="html">&lt;h1 id=&#34;背景&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#背景&#34;&gt;#&lt;/a&gt; 背景&lt;/h1&gt;
+&lt;h3 id=&#34;什么是hexo&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#什么是hexo&#34;&gt;#&lt;/a&gt; 什么是 hexo？&lt;/h3&gt;
+&lt;p&gt;Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他标记语言）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。&lt;/p&gt;
+&lt;h3 id=&#34;为什么使用hexo&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#为什么使用hexo&#34;&gt;#&lt;/a&gt; 为什么使用 hexo？&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;hexo 提供了丰富的主题 。&lt;/li&gt;
+&lt;li&gt;相比自己去开发搭建一个博客系统，而且还要自己购买域名和服务器，搭建博客成本太高。除了购买成本，还需要花时间定期维护它，所以，选择免费且高速的 hexo 再好不过了。&lt;/li&gt;
+&lt;li&gt;搭建快速方便，与 GitHub 搭配，可以便捷的部署我们的博客网站（主要是不需要自己去买服务器）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;安装主题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装主题&#34;&gt;#&lt;/a&gt; 安装主题&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;安装 ShokaX-CLI:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#hexo init&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;npm install shokax&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;cli &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;location=global&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#cd your_blog&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;SXC install shokaX&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;配置主题&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;​	更改根目录  &lt;code&gt;/_config.yml&lt;/code&gt;  中的  &lt;code&gt;theme&lt;/code&gt;  为  &lt;code&gt;shokaX&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;​	markdown 配置，停用默认代码高亮&lt;/p&gt;
+&lt;h1 id=&#34;博客功能实现&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#博客功能实现&#34;&gt;#&lt;/a&gt; 博客功能实现&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;在页面底部显示随机文章和最近评论&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;字数和阅读时间统计&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;头部自主选择日间或夜间模式&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;自定义网站轮播图&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;鼠标点击烟花特效&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;网站标题自定义：&lt;/p&gt;
+&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;show&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; 不负韶华&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;hide&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; 以梦为马！&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;文章按标题分类&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;技术问题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#技术问题&#34;&gt;#&lt;/a&gt; 技术问题&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;文章重复显示&lt;/p&gt;
+&lt;p&gt;清理缓存解决：&lt;/p&gt;
+&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo clean&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo g&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo s&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+        <updated>2024-04-20T17:42:50.329Z</updated>
+    </entry>
+</feed>
