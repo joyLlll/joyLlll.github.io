@@ -3,7 +3,7 @@
     <id>https://joyLlll.github.io</id>
     <title>Blog • Posts by &#34;report&#34; category</title>
     <link href="https://joyLlll.github.io" />
-    <updated>2024-04-20T18:23:16.321Z</updated>
+    <updated>2024-04-21T09:55:15.897Z</updated>
     <entry>
         <id>https://joyllll.github.io/2024/04/21/%E6%8A%80%E6%9C%AF%E6%8A%A5%E5%91%8A/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A%E6%8A%A5%E5%91%8A/</id>
         <title>作业报告</title>
@@ -55,7 +55,7 @@
 &lt;p&gt;网站标题自定义：&lt;/p&gt;
 &lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;show&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; 不负韶华&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;hide&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; 以梦为马！&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;文章按标题分类&lt;/p&gt;
+&lt;p&gt;文章分类&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h1 id=&#34;技术问题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#技术问题&#34;&gt;#&lt;/a&gt; 技术问题&lt;/h1&gt;
@@ -70,9 +70,10 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;图片显示未成功&lt;/p&gt;
+&lt;p&gt;图片网址失效，需要换新的网址&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 </content>
-        <updated>2024-04-20T18:23:16.321Z</updated>
+        <updated>2024-04-21T09:55:15.897Z</updated>
     </entry>
 </feed>
